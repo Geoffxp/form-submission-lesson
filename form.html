@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width" />
+            <title>Front-end foundations: HTML forms</title>
+            <link
+              href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+              rel="stylesheet"
+              type="text/css"
+            />
+            <link href="style.css" rel="stylesheet" type="text/css" />
+          </head>
+    </head>
+
+    <body>
+        <form>
+            <fieldset><legend>Complaint Box</legend>
+                <div>
+                    <p>Name:</p>
+                    <label for="name"></label>
+                    <input
+                        id="name" 
+                        type="text" 
+                        name="name"
+                        autofocus="on"
+                        placeholder="please enter your name" />
+                </div>
+                <div>
+                    <p>Email:</p>
+                    <label for="email"></label>
+                    <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        placeholder="please enter your email" />
+                </div>
+                <div>
+                    <P>Your message (it will definitely be read)</P>
+                    <label for="form-message"></label>
+                    <textarea
+                        id="form-message"
+                        name="message"
+                        maxlength="200"
+                        placeholder="Put 'er there"
+                    ></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: monospace;
+}
+p {
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px
+}
+
+fieldset {
+    width: 600px;
+    height: 395px;
+    justify-content: center
+}
+
+input {
+    width: 500px;
+    height: 25px;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+legend {
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+fieldset {
+    margin-left: 10px;
+}
+
+fieldset div {
+    margin-left: 45px;
+}
